@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.congrates-sec {}
+
+.header {
+    margin: 16px auto;
+}
+
+.congrates_heading {
+    color: rgba(27, 29, 199, 1);
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.congrates_content {
+    color: rgba(5, 47, 95, 1);
+    /* font-family: "Open Sans"; */
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.google_img {
+    margin-bottom: 32px;
+}
+
+.congrates_bottom {
+    opacity: 0.6;
+    color: rgba(5, 47, 95, 1);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.cong_btm{
+   width: 100%;
+   display: flex;
+   background-color: rgba(241,244,255,1);
+
+}
+
+.cong_btm_toll-free{
+    width: 50%;
+    color: rgba(224,0,103,1);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+.cong_btm_mail{
+    width: 50%;
+    color: rgba(224,0,103,1);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+.cong_btm_content{
+    width: 100%;
+    display: flex;
+}
+
+.cong_btm_no{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 22px 0 22px 0;
+    vertical-align: middle;
+    border-right: 2px solid rgba(241,244,255,1);
+
+}
+
+.cong_btm_mail-id{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 22px 0 22px 0;
+
+}

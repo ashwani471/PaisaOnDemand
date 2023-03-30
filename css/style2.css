@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-div {
+    padding: 0 32px;
+}
+
+
+/* header */
+
+.header {
+    border-bottom: 2px solid rgba(230, 234, 239, 1);
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/* greeting */
+
+.greeting {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.congrates {
+    margin-bottom: 8px;
+    color: rgba(27, 29, 199, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.rectangle {
+    height: 2px;
+    width: 85px;
+    background-color: rgba(224, 0, 103, 1);
+    margin: 0 auto 12px auto;
+}
+
+
+/* .greeting-lower {} */
+
+.limit-line {
+    margin-bottom: 4px;
+    color: rgba(5, 47, 95, 1);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.money {
+    color: rgba(224, 0, 103, 1);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+ul {
+    margin-bottom: 40px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li:nth-child(even) {
+    float: right;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+li:nth-child(even) {
+    text-align: end;
+}
+
+.list1 {
+    /* overflow: hidden; */
+    margin-bottom: 20px;
+}
+
+.combine_img {
+    padding: 12px 6px 5px 5px;
+    border-radius: 5.33px;
+    background-color: rgba(232, 244, 253, 1);
+}
+
+.content {
+    margin: 12px 0px 0px 13px;
+}
+
+.checkbox {
+    width: 100%;
+    background-color: rgba(5, 47, 95, 0.06);
+    margin-bottom: 40px;
+}
+
+label {
+    color: rgba(5, 47, 95, 1);
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.withdraw-button {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 12px 95.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(27, 29, 199, 1);
+    margin-bottom: 12px;
+    border: none;
+}
